@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D3E78001DD77E71005B758E /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E77FF1DD77E71005B758E /* BreakfastViewController.swift */; };
+		8DEEF4241DD34FA500CE20B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEEF4231DD34FA500CE20B4 /* AppDelegate.swift */; };
+		8DEEF4261DD34FA500CE20B4 /* CaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEEF4251DD34FA500CE20B4 /* CaloriesViewController.swift */; };
+		8DEEF42B1DD34FA500CE20B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEEF4291DD34FA500CE20B4 /* Main.storyboard */; };
+		8DEEF42D1DD34FA500CE20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEEF42C1DD34FA500CE20B4 /* Assets.xcassets */; };
+		8DEEF4301DD34FA500CE20B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEEF42E1DD34FA500CE20B4 /* LaunchScreen.storyboard */; };
+		8DEEF43B1DD34FA500CE20B4 /* Muscle_SandwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEEF43A1DD34FA500CE20B4 /* Muscle_SandwichTests.swift */; };
+		8DFEACA81DEF528C002D5292 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEACA71DEF528C002D5292 /* Meal.swift */; };
+		8DFEACAA1DEF56D9002D5292 /* PresetMealViewPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEACA91DEF56D9002D5292 /* PresetMealViewPickerController.swift */; };
+		8DFEACAC1DEF5BF6002D5292 /* CustomMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEACAB1DEF5BF6002D5292 /* CustomMealViewController.swift */; };
+		8DFEACAE1DEF6224002D5292 /* PresetMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEACAD1DEF6224002D5292 /* PresetMealViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DEEF4371DD34FA500CE20B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DEEF4181DD34FA500CE20B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEEF41F1DD34FA500CE20B4;
+			remoteInfo = "Muscle Sandwich";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D3E77FF1DD77E71005B758E /* BreakfastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
+		8DEEF4201DD34FA500CE20B4 /* Muscle Sandwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muscle Sandwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEEF4231DD34FA500CE20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DEEF4251DD34FA500CE20B4 /* CaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesViewController.swift; sourceTree = "<group>"; };
+		8DEEF42A1DD34FA500CE20B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DEEF42C1DD34FA500CE20B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DEEF42F1DD34FA500CE20B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DEEF4311DD34FA500CE20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DEEF4361DD34FA500CE20B4 /* Muscle SandwichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muscle SandwichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEEF43A1DD34FA500CE20B4 /* Muscle_SandwichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muscle_SandwichTests.swift; sourceTree = "<group>"; };
+		8DEEF43C1DD34FA500CE20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DFEACA71DEF528C002D5292 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		8DFEACA91DEF56D9002D5292 /* PresetMealViewPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetMealViewPickerController.swift; sourceTree = "<group>"; };
+		8DFEACAB1DEF5BF6002D5292 /* CustomMealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMealViewController.swift; sourceTree = "<group>"; };
+		8DFEACAD1DEF6224002D5292 /* PresetMealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetMealViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DEEF41D1DD34FA500CE20B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEF4331DD34FA500CE20B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DEEF4171DD34FA500CE20B4 = {
+			isa = PBXGroup;
+			children = (
+				8DEEF4221DD34FA500CE20B4 /* Muscle Sandwich */,
+				8DEEF4391DD34FA500CE20B4 /* Muscle SandwichTests */,
+				8DEEF4211DD34FA500CE20B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DEEF4211DD34FA500CE20B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DEEF4201DD34FA500CE20B4 /* Muscle Sandwich.app */,
+				8DEEF4361DD34FA500CE20B4 /* Muscle SandwichTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DEEF4221DD34FA500CE20B4 /* Muscle Sandwich */ = {
+			isa = PBXGroup;
+			children = (
+				8DEEF4231DD34FA500CE20B4 /* AppDelegate.swift */,
+				8DEEF4251DD34FA500CE20B4 /* CaloriesViewController.swift */,
+				8DEEF4291DD34FA500CE20B4 /* Main.storyboard */,
+				8D3E77FF1DD77E71005B758E /* BreakfastViewController.swift */,
+				8DFEACA91DEF56D9002D5292 /* PresetMealViewPickerController.swift */,
+				8DFEACAB1DEF5BF6002D5292 /* CustomMealViewController.swift */,
+				8DFEACAD1DEF6224002D5292 /* PresetMealViewController.swift */,
+				8DFEACA71DEF528C002D5292 /* Meal.swift */,
+				8DEEF42C1DD34FA500CE20B4 /* Assets.xcassets */,
+				8DEEF42E1DD34FA500CE20B4 /* LaunchScreen.storyboard */,
+				8DEEF4311DD34FA500CE20B4 /* Info.plist */,
+			);
+			path = "Muscle Sandwich";
+			sourceTree = "<group>";
+		};
+		8DEEF4391DD34FA500CE20B4 /* Muscle SandwichTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DEEF43A1DD34FA500CE20B4 /* Muscle_SandwichTests.swift */,
+				8DEEF43C1DD34FA500CE20B4 /* Info.plist */,
+			);
+			path = "Muscle SandwichTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DEEF41F1DD34FA500CE20B4 /* Muscle Sandwich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEEF43F1DD34FA500CE20B4 /* Build configuration list for PBXNativeTarget "Muscle Sandwich" */;
+			buildPhases = (
+				8DEEF41C1DD34FA500CE20B4 /* Sources */,
+				8DEEF41D1DD34FA500CE20B4 /* Frameworks */,
+				8DEEF41E1DD34FA500CE20B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muscle Sandwich";
+			productName = "Muscle Sandwich";
+			productReference = 8DEEF4201DD34FA500CE20B4 /* Muscle Sandwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DEEF4351DD34FA500CE20B4 /* Muscle SandwichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEEF4421DD34FA500CE20B4 /* Build configuration list for PBXNativeTarget "Muscle SandwichTests" */;
+			buildPhases = (
+				8DEEF4321DD34FA500CE20B4 /* Sources */,
+				8DEEF4331DD34FA500CE20B4 /* Frameworks */,
+				8DEEF4341DD34FA500CE20B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DEEF4381DD34FA500CE20B4 /* PBXTargetDependency */,
+			);
+			name = "Muscle SandwichTests";
+			productName = "Muscle SandwichTests";
+			productReference = 8DEEF4361DD34FA500CE20B4 /* Muscle SandwichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DEEF4181DD34FA500CE20B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Berk Abbasoglu";
+				TargetAttributes = {
+					8DEEF41F1DD34FA500CE20B4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8DEEF4351DD34FA500CE20B4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DEEF41F1DD34FA500CE20B4;
+					};
+				};
+			};
+			buildConfigurationList = 8DEEF41B1DD34FA500CE20B4 /* Build configuration list for PBXProject "Muscle Sandwich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DEEF4171DD34FA500CE20B4;
+			productRefGroup = 8DEEF4211DD34FA500CE20B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DEEF41F1DD34FA500CE20B4 /* Muscle Sandwich */,
+				8DEEF4351DD34FA500CE20B4 /* Muscle SandwichTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DEEF41E1DD34FA500CE20B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEEF4301DD34FA500CE20B4 /* LaunchScreen.storyboard in Resources */,
+				8DEEF42D1DD34FA500CE20B4 /* Assets.xcassets in Resources */,
+				8DEEF42B1DD34FA500CE20B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEF4341DD34FA500CE20B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DEEF41C1DD34FA500CE20B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3E78001DD77E71005B758E /* BreakfastViewController.swift in Sources */,
+				8DFEACAE1DEF6224002D5292 /* PresetMealViewController.swift in Sources */,
+				8DFEACAC1DEF5BF6002D5292 /* CustomMealViewController.swift in Sources */,
+				8DFEACAA1DEF56D9002D5292 /* PresetMealViewPickerController.swift in Sources */,
+				8DEEF4241DD34FA500CE20B4 /* AppDelegate.swift in Sources */,
+				8DFEACA81DEF528C002D5292 /* Meal.swift in Sources */,
+				8DEEF4261DD34FA500CE20B4 /* CaloriesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEF4321DD34FA500CE20B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEEF43B1DD34FA500CE20B4 /* Muscle_SandwichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DEEF4381DD34FA500CE20B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DEEF41F1DD34FA500CE20B4 /* Muscle Sandwich */;
+			targetProxy = 8DEEF4371DD34FA500CE20B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DEEF4291DD34FA500CE20B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DEEF42A1DD34FA500CE20B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DEEF42E1DD34FA500CE20B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DEEF42F1DD34FA500CE20B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DEEF43D1DD34FA500CE20B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DEEF43E1DD34FA500CE20B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DEEF4401DD34FA500CE20B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Muscle Sandwich/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BerkEvrenAbbasoglu.Muscle-Sandwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8DEEF4411DD34FA500CE20B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Muscle Sandwich/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BerkEvrenAbbasoglu.Muscle-Sandwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8DEEF4431DD34FA500CE20B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Muscle SandwichTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BerkEvrenAbbasoglu.Muscle-SandwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muscle Sandwich.app/Muscle Sandwich";
+			};
+			name = Debug;
+		};
+		8DEEF4441DD34FA500CE20B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Muscle SandwichTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BerkEvrenAbbasoglu.Muscle-SandwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muscle Sandwich.app/Muscle Sandwich";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DEEF41B1DD34FA500CE20B4 /* Build configuration list for PBXProject "Muscle Sandwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEEF43D1DD34FA500CE20B4 /* Debug */,
+				8DEEF43E1DD34FA500CE20B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEEF43F1DD34FA500CE20B4 /* Build configuration list for PBXNativeTarget "Muscle Sandwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEEF4401DD34FA500CE20B4 /* Debug */,
+				8DEEF4411DD34FA500CE20B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEEF4421DD34FA500CE20B4 /* Build configuration list for PBXNativeTarget "Muscle SandwichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEEF4431DD34FA500CE20B4 /* Debug */,
+				8DEEF4441DD34FA500CE20B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DEEF4181DD34FA500CE20B4 /* Project object */;
+}

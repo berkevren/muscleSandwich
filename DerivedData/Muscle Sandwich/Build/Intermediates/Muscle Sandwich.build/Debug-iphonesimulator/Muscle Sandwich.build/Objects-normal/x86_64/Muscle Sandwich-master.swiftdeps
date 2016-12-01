@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "6a1b593f15d30aa8fe20d2e2d2c29a00"
+build_time: [533852784, 802636000]
+inputs:
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/BreakfastViewController.swift": [533849259, 0]
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/PresetMealViewController.swift": [533851551, 0]
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/CustomMealViewController.swift": [533852784, 0]
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/PresetMealViewPickerController.swift": [533851413, 0]
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/AppDelegate.swift": [532010149, 0]
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/Meal.swift": [533848311, 0]
+  "/Users/berkabbasoglu/Documents/Programs/Swift/Muscle Sandwich/Muscle Sandwich/CaloriesViewController.swift": [533850240, 0]
